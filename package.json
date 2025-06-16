@@ -32,8 +32,16 @@
     "typescript",
     "bun"
   ],
-  "author": "Brian Cao <brian@trash-utils.dev> (https://github.com/chasoft)",
+  "author": "Brian Cao <brian@trash-utils.dev> (https://github.com/chasoft/trash-utils)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chasoft/trash-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chasoft/trash-utils/issues"
+  },
+  "homepage": "https://github.com/chasoft/trash-utils#readme",
   "devDependencies": {
     "@types/bun": "latest",
     "typescript": "^5.0.0"

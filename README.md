@@ -6,7 +6,7 @@
 [![Built with Bun](https://img.shields.io/badge/Built%20with-Bun-1f2937?logo=bun)](https://bun.sh)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![ESM Only](https://img.shields.io/badge/ESM-Only-brightgreen)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
-[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red)](https://github.com/chasoft)
+[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red)](https://github.com/chasoft/trash-utils)
 
 ## ✨ Features
 
@@ -27,23 +27,23 @@
 
 ### Using Bun (Recommended)
 ```bash
-bun add trash-utils
+bun add @startdoing/trash-utils
 ```
 
 ### Using npm
 ```bash
-npm install trash-utils
+npm install @startdoing/trash-utils
 ```
 
 ### Using yarn
 ```bash
-yarn add trash-utils
+yarn add @startdoing/trash-utils
 ```
 
 ## 📖 Usage
 
 ```typescript
-import { isNum } from 'trash-utils'
+import { isNum } from '@startdoing/trash-utils'
 
 // Basic usage
 console.log(isNum(42))       // true
@@ -121,7 +121,7 @@ irm bun.sh/install.ps1 | iex
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/chasoft/trash-utils.git
 cd trash-utils
 
 # Install dependencies
@@ -271,7 +271,7 @@ MIT License - see the [LICENSE](LICENSE) file for details.
 
 <div align="center">
 
-**Crafted with 💖, ⚡, and a touch of madness by [Brian Cao](https://github.com/chasoft)**
+**Crafted with 💖, ⚡, and a touch of madness by [Brian Cao](https://github.com/chasoft/trash-utils)**
 
 *"Why write the same utility functions over and over when you can just... not?"* 🤷‍♂️
 

@@ -1,6 +1,6 @@
 {
   "name": "@startdoing/trash-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of common utility functions built with Bun",
   "type": "module",
   "main": "./dist/index.js",

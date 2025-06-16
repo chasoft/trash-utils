@@ -23,6 +23,7 @@
     "lint": "bun run lint.ts",
     "format": "bun run format.ts",
     "check": "bun run check.ts",
+    "publish:npm": "bun run publish.ts",
     "prepublishOnly": "bun run check && bun run build"
   },
   "keywords": [

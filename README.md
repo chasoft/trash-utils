@@ -6,7 +6,7 @@
 [![Built with Bun](https://img.shields.io/badge/Built%20with-Bun-1f2937?logo=bun)](https://bun.sh)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![ESM Only](https://img.shields.io/badge/ESM-Only-brightgreen)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
-[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red)](https://github.com/briancao)
+[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red)](https://github.com/chasoft)
 
 ## ✨ Features
 
@@ -271,7 +271,7 @@ MIT License - see the [LICENSE](LICENSE) file for details.
 
 <div align="center">
 
-**Crafted with 💖, ⚡, and a touch of madness by [Brian Cao](https://github.com/briancao)**
+**Crafted with 💖, ⚡, and a touch of madness by [Brian Cao](https://github.com/chasoft)**
 
 *"Why write the same utility functions over and over when you can just... not?"* 🤷‍♂️
 

@@ -1,0 +1,44 @@
+{
+  "name": "@startdoing/trash-utils",
+  "version": "1.0.0",
+  "description": "A collection of common utility functions built with Bun",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun run build.ts",
+    "dev": "bun --watch run build.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "test:coverage": "bun test --coverage",
+    "lint": "bun run lint.ts",
+    "format": "bun run format.ts",
+    "check": "bun run check.ts",
+    "prepublishOnly": "bun run check && bun run build"
+  },
+  "keywords": [
+    "utils",
+    "utilities",
+    "typescript",
+    "bun"
+  ],
+  "author": "Brian Cao <brian@trash-utils.dev> (https://github.com/chasoft)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "trustedDependencies": []
+}

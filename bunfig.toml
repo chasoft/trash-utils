@@ -1,0 +1,12 @@
+# Bun configuration file
+# See https://bun.sh/docs/runtime/bunfig for more information
+
+[test]
+# Test settings
+coverage = true
+timeout = 5000
+
+[install]
+# Package manager settings - use defaults for optimal performance
+cache = true
+parallel = true
